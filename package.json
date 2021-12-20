@@ -3,6 +3,8 @@
   "displayName": "Evondev - Indent Rainbow Palettes",
   "description": "Generate a rainbow palette for indentation",
   "version": "0.0.1",
+  "repository": "https://github.com/evondev/indent-rainbow-palettes",
+  "publisher": "evondev",
   "engines": {
     "vscode": "^1.63.0"
   },
