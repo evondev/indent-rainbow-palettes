@@ -15,14 +15,21 @@ function activate(context) {
     'Congratulations, your extension "indent-rainbow-palettes" is now active!'
   );
 
-  // The command has been defined in the package.json file
-  // Now provide the implementation of the command with  registerCommand
-  // The commandId parameter must match the command field in package.json
+  function displayMessage() {
+    const cta = "Reload to apply";
+    vscode.window
+      .showInformationMessage("Updated Indent Rainbow patlettes", cta)
+      .then((selection) => {
+        if (selection === cta) {
+          vscode.commands.executeCommand("workbench.action.reloadWindow");
+        }
+      });
+  }
+  const configuration = vscode.workspace.getConfiguration();
   let disposable1 = vscode.commands.registerCommand(
     "indent-rainbow-palettes.palettes1",
     function () {
       // The code you place here will be executed every time your command is executed
-      const configuration = vscode.workspace.getConfiguration();
       configuration.update(
         "indentRainbow.colors",
         [
@@ -36,8 +43,7 @@ function activate(context) {
         ],
         true
       );
-      // Display a message box to the user
-      vscode.window.showInformationMessage("Updated Indent Rainbow patlettes");
+      displayMessage();
     }
   );
   let disposable2 = vscode.commands.registerCommand(
@@ -58,15 +64,7 @@ function activate(context) {
         ],
         true
       );
-      // Display a message box to the user
-      const cta = "Reload to apply";
-      vscode.window
-        .showInformationMessage("Updated Indent Rainbow patlettes", cta)
-        .then((selection) => {
-          if (selection === cta) {
-            vscode.commands.executeCommand("workbench.action.reloadWindow");
-          }
-        });
+      displayMessage();
     }
   );
   let disposable3 = vscode.commands.registerCommand(
@@ -87,15 +85,7 @@ function activate(context) {
         ],
         true
       );
-      // Display a message box to the user
-      const cta = "Reload to apply";
-      vscode.window
-        .showInformationMessage("Updated Indent Rainbow patlettes", cta)
-        .then((selection) => {
-          if (selection === cta) {
-            vscode.commands.executeCommand("workbench.action.reloadWindow");
-          }
-        });
+      displayMessage();
     }
   );
   let disposable4 = vscode.commands.registerCommand(
@@ -114,15 +104,7 @@ function activate(context) {
         ],
         true
       );
-      // Display a message box to the user
-      const cta = "Reload to apply";
-      vscode.window
-        .showInformationMessage("Updated Indent Rainbow patlettes", cta)
-        .then((selection) => {
-          if (selection === cta) {
-            vscode.commands.executeCommand("workbench.action.reloadWindow");
-          }
-        });
+      displayMessage();
     }
   );
   let disposable5 = vscode.commands.registerCommand(
@@ -141,15 +123,7 @@ function activate(context) {
         ],
         true
       );
-      // Display a message box to the user
-      const cta = "Reload to apply";
-      vscode.window
-        .showInformationMessage("Updated Indent Rainbow patlettes", cta)
-        .then((selection) => {
-          if (selection === cta) {
-            vscode.commands.executeCommand("workbench.action.reloadWindow");
-          }
-        });
+      displayMessage();
     }
   );
   let disposable6 = vscode.commands.registerCommand(
@@ -169,15 +143,7 @@ function activate(context) {
         ],
         true
       );
-      // Display a message box to the user
-      const cta = "Reload to apply";
-      vscode.window
-        .showInformationMessage("Updated Indent Rainbow patlettes", cta)
-        .then((selection) => {
-          if (selection === cta) {
-            vscode.commands.executeCommand("workbench.action.reloadWindow");
-          }
-        });
+      displayMessage();
     }
   );
   let disposable7 = vscode.commands.registerCommand(
@@ -197,15 +163,7 @@ function activate(context) {
         ],
         true
       );
-      // Display a message box to the user
-      const cta = "Reload to apply";
-      vscode.window
-        .showInformationMessage("Updated Indent Rainbow patlettes", cta)
-        .then((selection) => {
-          if (selection === cta) {
-            vscode.commands.executeCommand("workbench.action.reloadWindow");
-          }
-        });
+      displayMessage();
     }
   );
   let disposable8 = vscode.commands.registerCommand(
@@ -224,15 +182,6 @@ function activate(context) {
         ],
         true
       );
-      // Display a message box to the user
-      const cta = "Reload to apply";
-      vscode.window
-        .showInformationMessage("Updated Indent Rainbow patlettes", cta)
-        .then((selection) => {
-          if (selection === cta) {
-            vscode.commands.executeCommand("workbench.action.reloadWindow");
-          }
-        });
     }
   );
 
@@ -246,6 +195,7 @@ function activate(context) {
     disposable7,
     disposable8
   );
+  vscode.commands.executeCommand("indent-rainbow-palettes.palettes8");
 }
 
 // this method is called when your extension is deactivated
