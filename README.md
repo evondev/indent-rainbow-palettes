@@ -8,7 +8,7 @@
 
 # Installation
 
-- Plese install extension [indent-rainbow](https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow) first
+- Please install extension [indent-rainbow](https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow) first
 - In extensions menu typing 'Evondev - Indent Rainbow Palettes' then Install
 - `Ctrl/command + shift + P` and typing command below. Enjoy
 
