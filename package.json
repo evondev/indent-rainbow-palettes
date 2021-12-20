@@ -1,0 +1,75 @@
+{
+  "name": "indent-rainbow-palettes",
+  "displayName": "Evondev - Indent Rainbow Palettes",
+  "description": "Generate a rainbow palette for indentation",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.63.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "onCommand:indent-rainbow-palettes.palettes1",
+    "onCommand:indent-rainbow-palettes.palettes2",
+    "onCommand:indent-rainbow-palettes.palettes3",
+    "onCommand:indent-rainbow-palettes.palettes4",
+    "onCommand:indent-rainbow-palettes.palettes5",
+    "onCommand:indent-rainbow-palettes.palettes6",
+    "onCommand:indent-rainbow-palettes.palettes7",
+    "onCommand:indent-rainbow-palettes.palettes8"
+  ],
+  "main": "./extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "indent-rainbow-palettes.palettes1",
+        "title": "Indent Palettes1"
+      },
+      {
+        "command": "indent-rainbow-palettes.palettes2",
+        "title": "Indent Palettes2"
+      },
+      {
+        "command": "indent-rainbow-palettes.palettes3",
+        "title": "Indent Palettes3"
+      },
+      {
+        "command": "indent-rainbow-palettes.palettes4",
+        "title": "Indent Palettes4"
+      },
+      {
+        "command": "indent-rainbow-palettes.palettes5",
+        "title": "Indent Palettes5"
+      },
+      {
+        "command": "indent-rainbow-palettes.palettes6",
+        "title": "Indent Palettes6"
+      },
+      {
+        "command": "indent-rainbow-palettes.palettes7",
+        "title": "Indent Palettes7"
+      },
+      {
+        "command": "indent-rainbow-palettes.palettes8",
+        "title": "Indent Palettes8"
+      }
+    ]
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "pretest": "yarn run lint",
+    "test": "node ./test/runTest.js"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.63.0",
+    "@types/glob": "^7.1.3",
+    "@types/mocha": "^8.0.4",
+    "@types/node": "^12.11.7",
+    "eslint": "^7.19.0",
+    "glob": "^7.1.6",
+    "mocha": "^8.2.1",
+    "typescript": "^4.1.3",
+    "vscode-test": "^1.5.0"
+  }
+}
