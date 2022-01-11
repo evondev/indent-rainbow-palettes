@@ -2,7 +2,7 @@
   "name": "indent-rainbow-palettes",
   "displayName": "Evondev - Indent Rainbow Palettes",
   "description": "Generate a rainbow palette for indentation",
-  "version": "0.0.12",
+  "version": "0.0.13",
   "repository": {
     "type": "git",
     "url": "https://github.com/evondev/indent-rainbow-palettes"
@@ -23,7 +23,10 @@
     "onCommand:indent-rainbow-palettes.palettes5",
     "onCommand:indent-rainbow-palettes.palettes6",
     "onCommand:indent-rainbow-palettes.palettes7",
-    "onCommand:indent-rainbow-palettes.palettes8"
+    "onCommand:indent-rainbow-palettes.palettes8",
+    "onCommand:indent-rainbow-palettes.palettes9",
+    "onCommand:indent-rainbow-palettes.palettes10",
+    "onCommand:indent-rainbow-palettes.palettes11"
   ],
   "main": "./extension.js",
   "contributes": {
@@ -59,6 +62,18 @@
       {
         "command": "indent-rainbow-palettes.palettes8",
         "title": "Indent Palettes8"
+      },
+      {
+        "command": "indent-rainbow-palettes.palettes9",
+        "title": "Indent Palettes9"
+      },
+      {
+        "command": "indent-rainbow-palettes.palettes10",
+        "title": "Indent Palettes10"
+      },
+      {
+        "command": "indent-rainbow-palettes.palettes11",
+        "title": "Indent Palettes11"
       }
     ]
   },

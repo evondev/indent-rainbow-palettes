@@ -182,6 +182,64 @@ function activate(context) {
         ],
         true
       );
+      displayMessage();
+    }
+  );
+  let disposable9 = vscode.commands.registerCommand(
+    "indent-rainbow-palettes.palettes9",
+    function () {
+      // The code you place here will be executed every time your command is executed
+      const configuration = vscode.workspace.getConfiguration();
+      configuration.update(
+        "indentRainbow.colors",
+        [
+          "rgba(240, 128, 128,0.15)",
+          "rgba(244, 151, 142,0.15)",
+          "rgba(248, 173, 157, 0.15)",
+          "rgba(251, 196, 171,0.15)",
+          "rgba(255, 218, 185,0.15)",
+        ],
+        true
+      );
+      displayMessage();
+    }
+  );
+  let disposable10 = vscode.commands.registerCommand(
+    "indent-rainbow-palettes.palettes10",
+    function () {
+      // The code you place here will be executed every time your command is executed
+      const configuration = vscode.workspace.getConfiguration();
+      configuration.update(
+        "indentRainbow.colors",
+        [
+          "rgba(239, 71, 111,0.15)",
+          "rgba(255, 209, 102,0.15)",
+          "rgba(6, 214, 160, 0.15)",
+          "rgba(17, 138, 178,0.15)",
+          "rgba(7, 59, 76,0.15)",
+        ],
+        true
+      );
+      displayMessage();
+    }
+  );
+  let disposable11 = vscode.commands.registerCommand(
+    "indent-rainbow-palettes.palettes11",
+    function () {
+      // The code you place here will be executed every time your command is executed
+      const configuration = vscode.workspace.getConfiguration();
+      configuration.update(
+        "indentRainbow.colors",
+        [
+          "rgba(0, 129, 167,0.15)",
+          "rgba(0, 175, 185,0.15)",
+          "rgba(253, 252, 220, 0.15)",
+          "rgba(254, 217, 183,0.15)",
+          "rgba(240, 113, 103,0.15)",
+        ],
+        true
+      );
+      displayMessage();
     }
   );
 
@@ -193,9 +251,12 @@ function activate(context) {
     disposable5,
     disposable6,
     disposable7,
-    disposable8
+    disposable8,
+    disposable9,
+    disposable10,
+    disposable11
   );
-  vscode.commands.executeCommand("indent-rainbow-palettes.palettes8");
+  vscode.commands.executeCommand("indent-rainbow-palettes.palettes7");
 }
 
 // this method is called when your extension is deactivated
