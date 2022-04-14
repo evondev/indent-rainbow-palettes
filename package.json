@@ -10,7 +10,7 @@
   "publisher": "evondev",
   "icon": "icon.png",
   "engines": {
-    "vscode": "^1.63.0"
+    "vscode": "^1.20.0"
   },
   "categories": [
     "Other"
