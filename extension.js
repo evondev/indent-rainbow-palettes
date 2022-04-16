@@ -242,6 +242,111 @@ function activate(context) {
       displayMessage();
     }
   );
+  let disposable12 = vscode.commands.registerCommand(
+    "indent-rainbow-palettes.palettes12",
+    function () {
+      // The code you place here will be executed every time your command is executed
+      const configuration = vscode.workspace.getConfiguration();
+      configuration.update(
+        "indentRainbow.colors",
+        [
+          "rgba(3, 102, 102,0.15)",
+          "rgba(20, 116, 111,0.15)",
+          "rgba(36, 130, 119, 0.15)",
+          "rgba(53, 143, 128,0.15)",
+          "rgba(70, 157, 137,0.15)",
+          "rgba(86, 171, 145,0.15)",
+          "rgba(103, 185, 154,0.15)",
+        ],
+        true
+      );
+      displayMessage();
+    }
+  );
+  let disposable13 = vscode.commands.registerCommand(
+    "indent-rainbow-palettes.palettes13",
+    function () {
+      // The code you place here will be executed every time your command is executed
+      const configuration = vscode.workspace.getConfiguration();
+      configuration.update(
+        "indentRainbow.colors",
+        [
+          "rgba(255, 128, 0,0.15)",
+          "rgba(255, 140, 0,0.15)",
+          "rgba(255, 153, 0, 0.15)",
+          "rgba(255, 166, 0,0.15)",
+          "rgba(255, 179, 0,0.15)",
+          "rgba(255, 191, 0,0.15)",
+          "rgba(255, 204, 0,0.15)",
+        ],
+        true
+      );
+      displayMessage();
+    }
+  );
+  let disposable14 = vscode.commands.registerCommand(
+    "indent-rainbow-palettes.palettes14",
+    function () {
+      // The code you place here will be executed every time your command is executed
+      const configuration = vscode.workspace.getConfiguration();
+      configuration.update(
+        "indentRainbow.colors",
+        [
+          "rgba(242, 92, 84,0.15)",
+          "rgba(242, 112, 89,0.15)",
+          "rgba(244, 132, 95, 0.15)",
+          "rgba(247, 157, 101,0.15)",
+          "rgba(247, 178, 103,0.15)",
+          "rgba(247, 178, 103,0.1)",
+          "rgba(247, 178, 103,0.05)",
+        ],
+        true
+      );
+      displayMessage();
+    }
+  );
+  let disposable15 = vscode.commands.registerCommand(
+    "indent-rainbow-palettes.palettes15",
+    function () {
+      // The code you place here will be executed every time your command is executed
+      const configuration = vscode.workspace.getConfiguration();
+      configuration.update(
+        "indentRainbow.colors",
+        [
+          "rgba(98, 71, 170,0.15)",
+          "rgba(114, 81, 181,0.15)",
+          "rgba(129, 90, 192, 0.15)",
+          "rgba(145, 99, 203,0.15)",
+          "rgba(160, 108, 213,0.15)",
+          "rgba(177, 133, 219,0.15)",
+          "rgba(193, 158, 224,0.15)",
+        ],
+        true
+      );
+      displayMessage();
+    }
+  );
+  let disposable16 = vscode.commands.registerCommand(
+    "indent-rainbow-palettes.palettes16",
+    function () {
+      // The code you place here will be executed every time your command is executed
+      const configuration = vscode.workspace.getConfiguration();
+      configuration.update(
+        "indentRainbow.colors",
+        [
+          "rgba(255, 10, 84,0.15)",
+          "rgba(255, 71, 126,0.15)",
+          "rgba(255, 92, 138, 0.15)",
+          "rgba(255, 112, 150,0.15)",
+          "rgba(255, 133, 161,0.15)",
+          "rgba(255, 153, 172,0.15)",
+          "rgba(251, 177, 189,0.15)",
+        ],
+        true
+      );
+      displayMessage();
+    }
+  );
 
   context.subscriptions.push(
     disposable1,
@@ -254,7 +359,12 @@ function activate(context) {
     disposable8,
     disposable9,
     disposable10,
-    disposable11
+    disposable11,
+    disposable12,
+    disposable13,
+    disposable14,
+    disposable15,
+    disposable16
   );
   vscode.commands.executeCommand("indent-rainbow-palettes.palettes7");
 }

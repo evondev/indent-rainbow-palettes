@@ -1,9 +1,5 @@
 # Change Log
 
-All notable changes to the "indent-rainbow-palettes" extension will be documented in this file.
+## 0.0.14
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
-
-## [Unreleased]
-
-- Initial release
+- Add more palettes
