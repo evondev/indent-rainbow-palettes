@@ -22,3 +22,11 @@
 - Indent Palettes6
 - Indent Palettes7
 - Indent Palettes8
+- Indent Palettes9
+- Indent Palettes10
+- Indent Palettes11
+- Indent Palettes12
+- Indent Palettes13
+- Indent Palettes14
+- Indent Palettes15
+- Indent Palettes16
