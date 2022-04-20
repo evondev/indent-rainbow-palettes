@@ -18,7 +18,7 @@ function activate(context) {
   function displayMessage() {
     const cta = "Reload to apply";
     vscode.window
-      .showInformationMessage("Updated Indent Rainbow patlettes", cta)
+      .showInformationMessage("Updated Indent Rainbow palettes", cta)
       .then((selection) => {
         if (selection === cta) {
           vscode.commands.executeCommand("workbench.action.reloadWindow");
