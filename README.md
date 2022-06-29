@@ -4,7 +4,31 @@
 [![Rating](https://vsmarketplacebadge.apphb.com/rating/evondev.indent-rainbow-palettes.svg)](https://marketplace.visualstudio.com/items?itemName=evondev.indent-rainbow-palettes)
 [![Downloads](https://vsmarketplacebadge.apphb.com/downloads/evondev.indent-rainbow-palettes.svg)](https://marketplace.visualstudio.com/items?itemName=evondev.indent-rainbow-palettes)
 
-![Preview](https://raw.githubusercontent.com/evondev/indent-rainbow-palettes/master/preview1.png)
+# Some featured palettes
+
+## Palettes1
+
+![Preview](https://raw.githubusercontent.com/evondev/indent-rainbow-palettes/master/preview/palettes1.png)
+
+## Palettes2
+
+![Preview](https://raw.githubusercontent.com/evondev/indent-rainbow-palettes/master/preview/palettes2.png)
+
+## Palettes3
+
+![Preview](https://raw.githubusercontent.com/evondev/indent-rainbow-palettes/master/preview/palettes3.png)
+
+## Palettes7
+
+![Preview](https://raw.githubusercontent.com/evondev/indent-rainbow-palettes/master/preview/palettes7.png)
+
+## Palettes8
+
+![Preview](https://raw.githubusercontent.com/evondev/indent-rainbow-palettes/master/preview/palettes8.png)
+
+## Palettes10
+
+![Preview](https://raw.githubusercontent.com/evondev/indent-rainbow-palettes/master/preview/palettes10.png)
 
 # Installation
 
