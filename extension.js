@@ -16,14 +16,14 @@ function activate(context) {
   );
 
   function displayMessage() {
-    const cta = "Reload to apply";
-    vscode.window
-      .showInformationMessage("Updated Indent Rainbow patlettes", cta)
-      .then((selection) => {
-        if (selection === cta) {
-          vscode.commands.executeCommand("workbench.action.reloadWindow");
-        }
-      });
+    // const cta = "Reload to apply";
+    // vscode.window
+    //   .showInformationMessage("Updated Indent Rainbow patlettes", cta)
+    //   .then((selection) => {
+    //     if (selection === cta) {
+    //       vscode.commands.executeCommand("workbench.action.reloadWindow");
+    //     }
+    //   });
   }
   const configuration = vscode.workspace.getConfiguration();
   let disposable1 = vscode.commands.registerCommand(
