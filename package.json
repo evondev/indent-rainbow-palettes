@@ -2,7 +2,7 @@
   "name": "indent-rainbow-palettes",
   "displayName": "Evondev - Indent Rainbow Palettes",
   "description": "Generate a rainbow palette for indentation",
-  "version": "0.0.18",
+  "version": "0.0.19",
   "repository": {
     "type": "git",
     "url": "https://github.com/evondev/indent-rainbow-palettes"

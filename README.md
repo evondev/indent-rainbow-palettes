@@ -18,6 +18,18 @@
 
 ![Preview](https://raw.githubusercontent.com/evondev/indent-rainbow-palettes/master/preview/palettes3.png)
 
+## Palettes4
+
+![Preview](https://raw.githubusercontent.com/evondev/indent-rainbow-palettes/master/preview/palettes4.png)
+
+## Palettes5
+
+![Preview](https://raw.githubusercontent.com/evondev/indent-rainbow-palettes/master/preview/palettes5.png)
+
+## Palettes6
+
+![Preview](https://raw.githubusercontent.com/evondev/indent-rainbow-palettes/master/preview/palettes6.png)
+
 ## Palettes7
 
 ![Preview](https://raw.githubusercontent.com/evondev/indent-rainbow-palettes/master/preview/palettes7.png)
@@ -26,9 +38,37 @@
 
 ![Preview](https://raw.githubusercontent.com/evondev/indent-rainbow-palettes/master/preview/palettes8.png)
 
+## Palettes9
+
+![Preview](https://raw.githubusercontent.com/evondev/indent-rainbow-palettes/master/preview/palettes9.png)
+
 ## Palettes10
 
 ![Preview](https://raw.githubusercontent.com/evondev/indent-rainbow-palettes/master/preview/palettes10.png)
+
+## Palettes11
+
+![Preview](https://raw.githubusercontent.com/evondev/indent-rainbow-palettes/master/preview/palettes11.png)
+
+## Palettes12
+
+![Preview](https://raw.githubusercontent.com/evondev/indent-rainbow-palettes/master/preview/palettes12.png)
+
+## Palettes13
+
+![Preview](https://raw.githubusercontent.com/evondev/indent-rainbow-palettes/master/preview/palettes13.png)
+
+## Palettes14
+
+![Preview](https://raw.githubusercontent.com/evondev/indent-rainbow-palettes/master/preview/palettes14.png)
+
+## Palettes15
+
+![Preview](https://raw.githubusercontent.com/evondev/indent-rainbow-palettes/master/preview/palettes15.png)
+
+## Palettes16
+
+![Preview](https://raw.githubusercontent.com/evondev/indent-rainbow-palettes/master/preview/palettes16.png)
 
 # Installation
 
